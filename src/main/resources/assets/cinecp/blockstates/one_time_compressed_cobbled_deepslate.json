@@ -1,0 +1,7 @@
+{
+    "variants": {
+      "": {
+        "model": "cinecp:block/one_time_compressed_cobbled_deepslate"
+      }
+    }
+  }
