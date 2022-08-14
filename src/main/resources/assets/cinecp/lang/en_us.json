@@ -1,3 +1,11 @@
 {
-    "block.cinecp.one_time_compressed_cobbled_deepslate": "1x Cobbled Deepslate"
+    "block.cinecp.one_time_compressed_cobbled_deepslate": "1x Cobbled Deepslate",
+    "block.cinecp.two_time_compressed_cobbled_deepslate": "2x Cobbled Deeplsate",
+    "block.cinecp.three_time_compressed_cobbled_deepslate": "3x Cobbled Deeplsate",
+    "block.cinecp.four_time_compressed_cobbled_deepslate": "4x Cobbled Deeplsate",
+    "block.cinecp.five_time_compressed_cobbled_deepslate": "5x Cobbled Deeplsate",
+    "block.cinecp.six_time_compressed_cobbled_deepslate": "6x Cobbled Deeplsate",
+    "block.cinecp.seven_time_compressed_cobbled_deepslate": "7x Cobbled Deeplsate",
+    "block.cinecp.eight_time_compressed_cobbled_deepslate": "8x Cobbled Deeplsate",
+    "block.cinecp.nine_time_compressed_cobbled_deepslate": "9x Cobbled Deeplsate"
 }
