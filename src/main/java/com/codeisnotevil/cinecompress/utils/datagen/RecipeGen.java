@@ -24,6 +24,7 @@ public class RecipeGen extends FabricRecipeProvider{
 
         // TODO for every CompressedBlock Type add a recipe generator like the one below
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_COBBLED_DEEPSLATE_BLOCKS, Items.COBBLED_DEEPSLATE, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_DEEPSLATE_BLOCKS, Items.DEEPSLATE, exporter);
 
         
     }

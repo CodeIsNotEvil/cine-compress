@@ -17,8 +17,9 @@ public class BlockLootTableGen extends FabricBlockLootTableProvider{
     @Override
     protected void generateBlockLootTables() {
 
-        // TODO for every CompressedBlock Type add a loot table generator a like the one below if it drops itself.
+        // TODO for every CompressedBlock Type add a loot table generator a like the one below
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_COBBLED_DEEPSLATE_BLOCKS);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_DEEPSLATE_BLOCKS);
         
         
     }

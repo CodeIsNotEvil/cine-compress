@@ -18,11 +18,13 @@ public class CompressedBlocks {
 
     //Stones
     public static ArrayList<Block> COMPRESSED_COBBLED_DEEPSLATE_BLOCKS = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_DEEPSLATE_BLOCKS = new ArrayList<Block>();
 
     public static void registerBlocks() {
         
         // TODO add the createCompressedBlocks to register every CompressedBlock
         COMPRESSED_COBBLED_DEEPSLATE_BLOCKS = createCompressedBlocks("compressed_cobbled_deepslate", Settings.copy(Blocks.COBBLED_DEEPSLATE), COMPRESS_ITEM_GROUP);
+        COMPRESSED_DEEPSLATE_BLOCKS = createCompressedBlocks("compressed_deepslate", Settings.copy(Blocks.DEEPSLATE), COMPRESS_ITEM_GROUP);
 
 
     }
@@ -30,7 +32,7 @@ public class CompressedBlocks {
     private static ArrayList<Block> createCompressedBlocks(String name, Settings settings, ItemGroup group){
         ArrayList<Block> compressedBlocks = new ArrayList<Block>();
         for (int i = 1; i < 10; i++) {
-            Identifier identifier = new Identifier(CineCompress.MOD_ID, i + "x" + name);
+            Identifier identifier = new Identifier(CineCompress.MOD_ID, name + "x" + i);
             Block block = new Block(settings);
             compressedBlocks.add(block);
             Registry.register(Registry.BLOCK, identifier, block);
