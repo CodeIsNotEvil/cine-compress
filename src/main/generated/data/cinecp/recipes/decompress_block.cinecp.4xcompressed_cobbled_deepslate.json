@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:4xcompressed_cobbled_deepslate"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "cinecp:3xcompressed_cobbled_deepslate"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "cinecp:1xcompressed_cobbled_deepslate",
+    "cinecp:2xcompressed_cobbled_deepslate",
+    "cinecp:3xcompressed_cobbled_deepslate",
+    "cinecp:4xcompressed_cobbled_deepslate",
+    "cinecp:5xcompressed_cobbled_deepslate",
+    "cinecp:6xcompressed_cobbled_deepslate",
+    "cinecp:7xcompressed_cobbled_deepslate",
+    "cinecp:8xcompressed_cobbled_deepslate",
+    "cinecp:9xcompressed_cobbled_deepslate"
+  ]
+}

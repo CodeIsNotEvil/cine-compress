@@ -1,6 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-      "all": "cinecp:blocks/one_time_compressed_cobbled_deepslate"
-    }
-  }

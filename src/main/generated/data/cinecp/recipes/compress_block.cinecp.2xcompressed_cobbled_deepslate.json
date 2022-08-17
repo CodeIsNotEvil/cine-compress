@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:1xcompressed_cobbled_deepslate"
+    },
+    {
+      "item": "cinecp:1xcompressed_cobbled_deepslate"
+    },
+    {
+      "item": "cinecp:1xcompressed_cobbled_deepslate"
+    },
+    {
+      "item": "cinecp:1xcompressed_cobbled_deepslate"
+    },
+    {
+      "item": "cinecp:1xcompressed_cobbled_deepslate"
+    },
+    {
+      "item": "cinecp:1xcompressed_cobbled_deepslate"
+    },
+    {
+      "item": "cinecp:1xcompressed_cobbled_deepslate"
+    },
+    {
+      "item": "cinecp:1xcompressed_cobbled_deepslate"
+    },
+    {
+      "item": "cinecp:1xcompressed_cobbled_deepslate"
+    }
+  ],
+  "result": {
+    "item": "cinecp:2xcompressed_cobbled_deepslate"
+  }
+}
