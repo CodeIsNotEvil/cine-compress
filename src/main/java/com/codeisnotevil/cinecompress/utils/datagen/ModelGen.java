@@ -28,6 +28,10 @@ public class ModelGen extends FabricModelProvider{
             blockStateModelGenerator.registerSingleton(block, TexturedModel.SIDE_END_WALL);
         } 
 
+        for (Block block : CompressedBlocks.COMPRESSED_COBBLESTONE_BLOCKS) {
+            blockStateModelGenerator.registerSimpleCubeAll(block);
+        }
+
     }
 
     @Override

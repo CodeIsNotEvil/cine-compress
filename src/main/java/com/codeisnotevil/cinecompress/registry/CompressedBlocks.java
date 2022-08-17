@@ -19,12 +19,14 @@ public class CompressedBlocks {
     //Stones
     public static ArrayList<Block> COMPRESSED_COBBLED_DEEPSLATE_BLOCKS = new ArrayList<Block>();
     public static ArrayList<Block> COMPRESSED_DEEPSLATE_BLOCKS = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_COBBLESTONE_BLOCKS = new ArrayList<Block>();
 
     public static void registerBlocks() {
         
         // TODO add the createCompressedBlocks to register every CompressedBlock
         COMPRESSED_COBBLED_DEEPSLATE_BLOCKS = createCompressedBlocks("compressed_cobbled_deepslate", Settings.copy(Blocks.COBBLED_DEEPSLATE), COMPRESS_ITEM_GROUP);
         COMPRESSED_DEEPSLATE_BLOCKS = createCompressedBlocks("compressed_deepslate", Settings.copy(Blocks.DEEPSLATE), COMPRESS_ITEM_GROUP);
+        COMPRESSED_COBBLESTONE_BLOCKS = createCompressedBlocks("compressed_cobblestone", Settings.copy(Blocks.COBBLESTONE), COMPRESS_ITEM_GROUP);
 
 
     }

@@ -25,6 +25,11 @@ public class BlockTagGen extends FabricTagProvider.BlockTagProvider {
         for (Block block : CompressedBlocks.COMPRESSED_DEEPSLATE_BLOCKS) {
             getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(block);
             getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL).add(block);
+        }
+
+        for (Block block : CompressedBlocks.COMPRESSED_COBBLESTONE_BLOCKS) {
+            getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(block);
+            getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL).add(block);
         } 
         
 

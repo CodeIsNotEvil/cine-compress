@@ -6,7 +6,7 @@ This mod just adds Block compression to the game.
 ## features 
 ### Blocks
 #### Stones
-- [ ] Cobblestone
+- [x] Cobblestone
 - [ ] Stone
 - [ ] Obsidian
 - [ ] Diorite
