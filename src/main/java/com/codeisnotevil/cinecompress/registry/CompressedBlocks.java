@@ -14,18 +14,17 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class CompressedBlocks {
-    private static final ItemGroup COMPRESS_ITEM_GROUP = ItemGroup.BUILDING_BLOCKS;
+    private static final ItemGroup COMPRESS_ITEM_GROUP = CineCompress.COMPRESS_GROUP;
 
     //Stones
     public static ArrayList<Block> COMPRESSED_COBBLED_DEEPSLATE_BLOCKS = new ArrayList<Block>();
-    //public static ArrayList<Item> COMPRESSED_COBBLED_DEEPSLATE_ITEMS = new ArrayList<Item>();
 
     public static void registerBlocks() {
         
         // TODO add the createCompressedBlocks to register every CompressedBlock
         COMPRESSED_COBBLED_DEEPSLATE_BLOCKS = createCompressedBlocks("compressed_cobbled_deepslate", Settings.copy(Blocks.COBBLED_DEEPSLATE), COMPRESS_ITEM_GROUP);
 
-        
+
     }
 
     private static ArrayList<Block> createCompressedBlocks(String name, Settings settings, ItemGroup group){
