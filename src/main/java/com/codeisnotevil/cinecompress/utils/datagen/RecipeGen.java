@@ -26,7 +26,7 @@ public class RecipeGen extends FabricRecipeProvider{
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_COBBLED_DEEPSLATE_BLOCKS, Items.COBBLED_DEEPSLATE, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_DEEPSLATE_BLOCKS, Items.DEEPSLATE, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_COBBLESTONE_BLOCKS, Items.COBBLESTONE, exporter);
-
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_STONE_BLOCKS, Items.STONE, exporter);
         
     }
 

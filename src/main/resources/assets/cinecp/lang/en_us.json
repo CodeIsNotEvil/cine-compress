@@ -26,5 +26,14 @@
     "block.cinecp.compressed_cobblestonex6": "6x Compressed Cobblestone",
     "block.cinecp.compressed_cobblestonex7": "7x Compressed Cobblestone",
     "block.cinecp.compressed_cobblestonex8": "8x Compressed Cobblestone",
-    "block.cinecp.compressed_cobblestonex9": "9x Compressed Cobblestone"
+    "block.cinecp.compressed_cobblestonex9": "9x Compressed Cobblestone",
+    "block.cinecp.compressed_stonex1": "1x Compressed Stone",
+    "block.cinecp.compressed_stonex2": "2x Compressed Stone",
+    "block.cinecp.compressed_stonex3": "3x Compressed Stone",
+    "block.cinecp.compressed_stonex4": "4x Compressed Stone",
+    "block.cinecp.compressed_stonex5": "5x Compressed Stone",
+    "block.cinecp.compressed_stonex6": "6x Compressed Stone",
+    "block.cinecp.compressed_stonex7": "7x Compressed Stone",
+    "block.cinecp.compressed_stonex8": "8x Compressed Stone",
+    "block.cinecp.compressed_stonex9": "9x Compressed Stone"
 }
