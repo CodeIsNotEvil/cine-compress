@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_dioritex8"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "cinecp:compressed_dioritex7"
+  }
+}

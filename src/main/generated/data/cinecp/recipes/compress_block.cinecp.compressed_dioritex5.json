@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_dioritex4"
+    },
+    {
+      "item": "cinecp:compressed_dioritex4"
+    },
+    {
+      "item": "cinecp:compressed_dioritex4"
+    },
+    {
+      "item": "cinecp:compressed_dioritex4"
+    },
+    {
+      "item": "cinecp:compressed_dioritex4"
+    },
+    {
+      "item": "cinecp:compressed_dioritex4"
+    },
+    {
+      "item": "cinecp:compressed_dioritex4"
+    },
+    {
+      "item": "cinecp:compressed_dioritex4"
+    },
+    {
+      "item": "cinecp:compressed_dioritex4"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_dioritex5"
+  }
+}

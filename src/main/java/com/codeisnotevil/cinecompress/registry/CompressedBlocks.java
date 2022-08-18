@@ -21,6 +21,10 @@ public class CompressedBlocks {
     public static ArrayList<Block> COMPRESSED_DEEPSLATE_BLOCKS = new ArrayList<Block>();
     public static ArrayList<Block> COMPRESSED_COBBLESTONE_BLOCKS = new ArrayList<Block>();
     public static ArrayList<Block> COMPRESSED_STONE_BLOCKS = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_OBSIDIAN_BLOCKS = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_DIORITE_BLOCKS = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_ANDESITE_BLOCKS = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_GRANITE_BLOCKS = new ArrayList<Block>();
 
     public static void registerBlocks() {
         
@@ -29,7 +33,10 @@ public class CompressedBlocks {
         COMPRESSED_DEEPSLATE_BLOCKS = createCompressedBlocks("compressed_deepslate", Settings.copy(Blocks.DEEPSLATE));
         COMPRESSED_COBBLESTONE_BLOCKS = createCompressedBlocks("compressed_cobblestone", Settings.copy(Blocks.COBBLESTONE));
         COMPRESSED_STONE_BLOCKS = createCompressedBlocks("compressed_stone", Settings.copy(Blocks.STONE));
-
+        COMPRESSED_OBSIDIAN_BLOCKS = createCompressedBlocks("compressed_obsidian", Settings.copy(Blocks.OBSIDIAN));
+        COMPRESSED_DIORITE_BLOCKS = createCompressedBlocks("compressed_diorite", Settings.copy(Blocks.DIORITE));
+        COMPRESSED_ANDESITE_BLOCKS = createCompressedBlocks("compressed_andesite", Settings.copy(Blocks.ANDESITE));
+        COMPRESSED_GRANITE_BLOCKS = createCompressedBlocks("compressed_granite", Settings.copy(Blocks.GRANITE));
 
     }
 

@@ -25,10 +25,14 @@ public class ModelGen extends FabricModelProvider{
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_COBBLED_DEEPSLATE_BLOCKS, blockStateModelGenerator);
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_COBBLESTONE_BLOCKS, blockStateModelGenerator);
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_STONE_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_OBSIDIAN_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_DIORITE_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_ANDESITE_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_GRANITE_BLOCKS, blockStateModelGenerator);
 
         // pillar like blocks
         generateTopSideCubeAll(CompressedBlocks.COMPRESSED_DEEPSLATE_BLOCKS, blockStateModelGenerator);
-        
+
     }
 
     /*

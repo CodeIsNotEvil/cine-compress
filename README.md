@@ -8,10 +8,10 @@ This mod just adds Block compression to the game.
 #### Stones
 - [x] Cobblestone
 - [x] Stone
-- [ ] Obsidian
-- [ ] Diorite
-- [ ] Andesite
-- [ ] Granite
+- [x] Obsidian
+- [x] Diorite
+- [x] Andesite
+- [x] Granite
 - [x] Deepslate
 - [x] Cobbled Deepslate
 - [ ] Tuff

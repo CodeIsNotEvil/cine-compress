@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_andesitex5"
+    },
+    {
+      "item": "cinecp:compressed_andesitex5"
+    },
+    {
+      "item": "cinecp:compressed_andesitex5"
+    },
+    {
+      "item": "cinecp:compressed_andesitex5"
+    },
+    {
+      "item": "cinecp:compressed_andesitex5"
+    },
+    {
+      "item": "cinecp:compressed_andesitex5"
+    },
+    {
+      "item": "cinecp:compressed_andesitex5"
+    },
+    {
+      "item": "cinecp:compressed_andesitex5"
+    },
+    {
+      "item": "cinecp:compressed_andesitex5"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_andesitex6"
+  }
+}
