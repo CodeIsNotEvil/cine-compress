@@ -71,5 +71,14 @@
     "block.cinecp.compressed_granitex6": "6x Compressed Granite",
     "block.cinecp.compressed_granitex7": "7x Compressed Granite",
     "block.cinecp.compressed_granitex8": "8x Compressed Granite",
-    "block.cinecp.compressed_granitex9": "9x Compressed Granite"
+    "block.cinecp.compressed_granitex9": "9x Compressed Granite",
+    "block.cinecp.compressed_calcitex1": "1x Compressed Calcite",
+    "block.cinecp.compressed_calcitex2": "2x Compressed Calcite",
+    "block.cinecp.compressed_calcitex3": "3x Compressed Calcite",
+    "block.cinecp.compressed_calcitex4": "4x Compressed Calcite",
+    "block.cinecp.compressed_calcitex5": "5x Compressed Calcite",
+    "block.cinecp.compressed_calcitex6": "6x Compressed Calcite",
+    "block.cinecp.compressed_calcitex7": "7x Compressed Calcite",
+    "block.cinecp.compressed_calcitex8": "8x Compressed Calcite",
+    "block.cinecp.compressed_calcitex9": "9x Compressed Calcite"
 }

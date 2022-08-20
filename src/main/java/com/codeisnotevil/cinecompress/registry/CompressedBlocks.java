@@ -25,6 +25,7 @@ public class CompressedBlocks {
     public static ArrayList<Block> COMPRESSED_DIORITE_BLOCKS = new ArrayList<Block>();
     public static ArrayList<Block> COMPRESSED_ANDESITE_BLOCKS = new ArrayList<Block>();
     public static ArrayList<Block> COMPRESSED_GRANITE_BLOCKS = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_CALCITE_BLOCKS = new ArrayList<Block>();
 
     public static void registerBlocks() {
         
@@ -37,6 +38,7 @@ public class CompressedBlocks {
         COMPRESSED_DIORITE_BLOCKS = createCompressedBlocks("compressed_diorite", Settings.copy(Blocks.DIORITE));
         COMPRESSED_ANDESITE_BLOCKS = createCompressedBlocks("compressed_andesite", Settings.copy(Blocks.ANDESITE));
         COMPRESSED_GRANITE_BLOCKS = createCompressedBlocks("compressed_granite", Settings.copy(Blocks.GRANITE));
+        COMPRESSED_CALCITE_BLOCKS = createCompressedBlocks("compressed_calcite", Settings.copy(Blocks.CALCITE));
 
     }
 

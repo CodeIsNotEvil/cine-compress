@@ -29,6 +29,7 @@ public class ModelGen extends FabricModelProvider{
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_DIORITE_BLOCKS, blockStateModelGenerator);
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_ANDESITE_BLOCKS, blockStateModelGenerator);
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_GRANITE_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_CALCITE_BLOCKS, blockStateModelGenerator);
 
         // pillar like blocks
         generateTopSideCubeAll(CompressedBlocks.COMPRESSED_DEEPSLATE_BLOCKS, blockStateModelGenerator);

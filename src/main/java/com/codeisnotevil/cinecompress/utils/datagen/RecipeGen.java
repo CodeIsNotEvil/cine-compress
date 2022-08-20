@@ -31,6 +31,7 @@ public class RecipeGen extends FabricRecipeProvider{
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_DIORITE_BLOCKS, Items.DIORITE, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_ANDESITE_BLOCKS, Items.ANDESITE, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_GRANITE_BLOCKS, Items.GRANITE, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_CALCITE_BLOCKS, Items.CALCITE, exporter);
         
     }
 

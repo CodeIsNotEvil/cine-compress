@@ -33,6 +33,7 @@ public class BlockTagGen extends FabricTagProvider.BlockTagProvider {
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_DIORITE_BLOCKS);
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_ANDESITE_BLOCKS);
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_GRANITE_BLOCKS);
+        generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_CALCITE_BLOCKS);
 
 
     }
