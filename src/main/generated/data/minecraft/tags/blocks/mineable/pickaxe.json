@@ -99,6 +99,15 @@
     "cinecp:compressed_dripstone_blockx6",
     "cinecp:compressed_dripstone_blockx7",
     "cinecp:compressed_dripstone_blockx8",
-    "cinecp:compressed_dripstone_blockx9"
+    "cinecp:compressed_dripstone_blockx9",
+    "cinecp:compressed_terracottax1",
+    "cinecp:compressed_terracottax2",
+    "cinecp:compressed_terracottax3",
+    "cinecp:compressed_terracottax4",
+    "cinecp:compressed_terracottax5",
+    "cinecp:compressed_terracottax6",
+    "cinecp:compressed_terracottax7",
+    "cinecp:compressed_terracottax8",
+    "cinecp:compressed_terracottax9"
   ]
 }

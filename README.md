@@ -18,13 +18,13 @@ This mod just adds Block compression to the game.
 - [x] Calcite
 - [x] Dripstone Block
 #### Dirty
-- [ ] Dirt
-- [ ] Sand
-- [ ] Red Sand
-- [ ] Clay
-- [ ] Gravil
-- [ ] Terracotta
-- [ ] Moss Block
+- [x] Dirt
+- [x] Sand
+- [x] Red Sand
+- [x] Clay
+- [x] Gravel
+- [x] Terracotta
+- [x] Moss Block
 #### Hellish
 - [ ] Netherrack
 - [ ] Soulsand

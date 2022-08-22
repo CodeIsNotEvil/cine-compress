@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_sandx8"
+    },
+    {
+      "item": "cinecp:compressed_sandx8"
+    },
+    {
+      "item": "cinecp:compressed_sandx8"
+    },
+    {
+      "item": "cinecp:compressed_sandx8"
+    },
+    {
+      "item": "cinecp:compressed_sandx8"
+    },
+    {
+      "item": "cinecp:compressed_sandx8"
+    },
+    {
+      "item": "cinecp:compressed_sandx8"
+    },
+    {
+      "item": "cinecp:compressed_sandx8"
+    },
+    {
+      "item": "cinecp:compressed_sandx8"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_sandx9"
+  }
+}

@@ -18,6 +18,7 @@ public class BlockLootTableGen extends FabricBlockLootTableProvider{
     protected void generateBlockLootTables() {
 
         // TODO for every CompressedBlock Type add a loot table generator a like the one below
+        // Stones
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_COBBLED_DEEPSLATE_BLOCKS);
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_DEEPSLATE_BLOCKS);
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_COBBLESTONE_BLOCKS);
@@ -29,6 +30,15 @@ public class BlockLootTableGen extends FabricBlockLootTableProvider{
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_TUFF_BLOCKS);
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_CALCITE_BLOCKS);
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_DRIPSTONE_BLOCK_BLOCKS);
+
+        // Dirty
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_DIRT_BLOCKS);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_SAND_BLOCKS);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_RED_SAND_BLOCKS);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_CLAY_BLOCKS);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_GRAVEL_BLOCKS);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_TERRACOTTA_BLOCKS);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_MOSS_BLOCK_BLOCKS);
         
     }
 

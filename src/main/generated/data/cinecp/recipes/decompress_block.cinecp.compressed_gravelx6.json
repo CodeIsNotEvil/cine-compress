@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_gravelx6"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "cinecp:compressed_gravelx5"
+  }
+}

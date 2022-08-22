@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_dirtx1"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:dirt"
+  }
+}

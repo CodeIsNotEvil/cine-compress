@@ -19,12 +19,14 @@ public class BlockTagGen extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void generateTags() {
         TagKey<Block> pickaxe = BlockTags.PICKAXE_MINEABLE;
-        // TagKey<Block> shovel = BlockTags.SHOVEL_MINEABLE;
+        TagKey<Block> shovel = BlockTags.SHOVEL_MINEABLE;
+        TagKey<Block> hoe = BlockTags.HOE_MINEABLE;
 
         TagKey<Block> stone = BlockTags.NEEDS_STONE_TOOL;
         TagKey<Block> diamond = BlockTags.NEEDS_DIAMOND_TOOL;
 
         // TODO for every CompressedBlock Type add a tag generator a like the one below
+        // Stones
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_COBBLED_DEEPSLATE_BLOCKS);
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_DEEPSLATE_BLOCKS);
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_COBBLESTONE_BLOCKS);
@@ -36,6 +38,15 @@ public class BlockTagGen extends FabricTagProvider.BlockTagProvider {
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_TUFF_BLOCKS);
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_CALCITE_BLOCKS);
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_DRIPSTONE_BLOCK_BLOCKS);
+
+        // Dirty
+        generateMineableTags(shovel, stone, CompressedBlocks.COMPRESSED_DIRT_BLOCKS);
+        generateMineableTags(shovel, stone, CompressedBlocks.COMPRESSED_SAND_BLOCKS);
+        generateMineableTags(shovel, stone, CompressedBlocks.COMPRESSED_RED_SAND_BLOCKS);
+        generateMineableTags(shovel, stone, CompressedBlocks.COMPRESSED_CLAY_BLOCKS);
+        generateMineableTags(shovel, stone, CompressedBlocks.COMPRESSED_GRAVEL_BLOCKS);
+        generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_TERRACOTTA_BLOCKS);
+        generateMineableTags(hoe, stone, CompressedBlocks.COMPRESSED_MOSS_BLOCK_BLOCKS);
 
 
     }

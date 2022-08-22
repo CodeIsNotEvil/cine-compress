@@ -1,4 +1,6 @@
-// 1.19	2022-08-22T16:03:20.0125076	Tags for minecraft:block
+// 1.19	2022-08-23T00:28:50.7783126	Tags for minecraft:block
 14b404a9ad2fb53757a78a7bb7fecf72cba1b30a data\minecraft\tags\blocks\needs_diamond_tool.json
-e8c813db8c3e018bc238ec75f6907ac08693483b data\minecraft\tags\blocks\mineable\pickaxe.json
-155df77d8f67308cdd4b1b1feac9e95dcddb444b data\minecraft\tags\blocks\needs_stone_tool.json
+9119ac022b1a0c991213384003541c1b167d2cc7 data\minecraft\tags\blocks\mineable\shovel.json
+61f675687ea7bbf9231ca5b4ff2815b16983c4fe data\minecraft\tags\blocks\mineable\pickaxe.json
+1c6118b20a595745eb2686aea32c1a5b86890aca data\minecraft\tags\blocks\mineable\hoe.json
+c2104bbbb183e00093e65bd96362f86df2621880 data\minecraft\tags\blocks\needs_stone_tool.json

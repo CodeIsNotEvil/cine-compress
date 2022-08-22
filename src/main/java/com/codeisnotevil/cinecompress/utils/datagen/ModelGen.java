@@ -21,6 +21,7 @@ public class ModelGen extends FabricModelProvider{
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         
         // TODO for every CompressedBlock Type add a model generator like the one below
+        // Stones
         // all sides are the same
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_COBBLED_DEEPSLATE_BLOCKS, blockStateModelGenerator);
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_COBBLESTONE_BLOCKS, blockStateModelGenerator);
@@ -32,9 +33,17 @@ public class ModelGen extends FabricModelProvider{
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_TUFF_BLOCKS, blockStateModelGenerator);
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_CALCITE_BLOCKS, blockStateModelGenerator);
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_DRIPSTONE_BLOCK_BLOCKS, blockStateModelGenerator);
-
         // pillar like blocks
         generateTopSideCubeAll(CompressedBlocks.COMPRESSED_DEEPSLATE_BLOCKS, blockStateModelGenerator);
+
+        // Dirty
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_DIRT_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_SAND_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_RED_SAND_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_CLAY_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_GRAVEL_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_TERRACOTTA_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_MOSS_BLOCK_BLOCKS, blockStateModelGenerator);
 
     }
 

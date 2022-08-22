@@ -23,6 +23,7 @@ public class RecipeGen extends FabricRecipeProvider{
     protected void generateRecipes(Consumer<RecipeJsonProvider> exporter) {
 
         // TODO for every CompressedBlock Type add a recipe generator like the one below
+        // Stones
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_COBBLED_DEEPSLATE_BLOCKS, Items.COBBLED_DEEPSLATE, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_DEEPSLATE_BLOCKS, Items.DEEPSLATE, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_COBBLESTONE_BLOCKS, Items.COBBLESTONE, exporter);
@@ -34,6 +35,15 @@ public class RecipeGen extends FabricRecipeProvider{
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_TUFF_BLOCKS, Items.TUFF, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_CALCITE_BLOCKS, Items.CALCITE, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_DRIPSTONE_BLOCK_BLOCKS, Items.DRIPSTONE_BLOCK, exporter);
+
+        // Dirty
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_DIRT_BLOCKS, Items.DIRT, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_SAND_BLOCKS, Items.SAND, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_RED_SAND_BLOCKS, Items.RED_SAND, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_CLAY_BLOCKS, Items.CLAY, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_GRAVEL_BLOCKS, Items.GRAVEL, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_TERRACOTTA_BLOCKS, Items.TERRACOTTA, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_MOSS_BLOCK_BLOCKS, Items.MOSS_BLOCK, exporter);
         
     }
 

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_dirtx7"
+    },
+    {
+      "item": "cinecp:compressed_dirtx7"
+    },
+    {
+      "item": "cinecp:compressed_dirtx7"
+    },
+    {
+      "item": "cinecp:compressed_dirtx7"
+    },
+    {
+      "item": "cinecp:compressed_dirtx7"
+    },
+    {
+      "item": "cinecp:compressed_dirtx7"
+    },
+    {
+      "item": "cinecp:compressed_dirtx7"
+    },
+    {
+      "item": "cinecp:compressed_dirtx7"
+    },
+    {
+      "item": "cinecp:compressed_dirtx7"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_dirtx8"
+  }
+}

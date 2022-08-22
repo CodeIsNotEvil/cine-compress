@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:compress_block.cinecp.compressed_clayx8"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_translation{key='block.minecraft.clay', args=[]}": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:clay"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_translation{key='block.minecraft.clay', args=[]}",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:compress_block.cinecp.compressed_clayx8"
+    ]
+  }
+}
