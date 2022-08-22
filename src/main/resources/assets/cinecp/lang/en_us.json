@@ -89,5 +89,14 @@
     "block.cinecp.compressed_calcitex6": "6x Compressed Calcite",
     "block.cinecp.compressed_calcitex7": "7x Compressed Calcite",
     "block.cinecp.compressed_calcitex8": "8x Compressed Calcite",
-    "block.cinecp.compressed_calcitex9": "9x Compressed Calcite"
+    "block.cinecp.compressed_calcitex9": "9x Compressed Calcite",
+    "block.cinecp.compressed_dripstone_blockx1": "1x Compressed Dripstone Block",
+    "block.cinecp.compressed_dripstone_blockx2": "2x Compressed Dripstone Block",
+    "block.cinecp.compressed_dripstone_blockx3": "3x Compressed Dripstone Block",
+    "block.cinecp.compressed_dripstone_blockx4": "4x Compressed Dripstone Block",
+    "block.cinecp.compressed_dripstone_blockx5": "5x Compressed Dripstone Block",
+    "block.cinecp.compressed_dripstone_blockx6": "6x Compressed Dripstone Block",
+    "block.cinecp.compressed_dripstone_blockx7": "7x Compressed Dripstone Block",
+    "block.cinecp.compressed_dripstone_blockx8": "8x Compressed Dripstone Block",
+    "block.cinecp.compressed_dripstone_blockx9": "9x Compressed Dripstone Block"
 }

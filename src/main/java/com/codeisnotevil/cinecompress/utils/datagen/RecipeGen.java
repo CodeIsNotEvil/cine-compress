@@ -33,6 +33,7 @@ public class RecipeGen extends FabricRecipeProvider{
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_GRANITE_BLOCKS, Items.GRANITE, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_TUFF_BLOCKS, Items.TUFF, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_CALCITE_BLOCKS, Items.CALCITE, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_DRIPSTONE_BLOCK_BLOCKS, Items.DRIPSTONE_BLOCK, exporter);
         
     }
 

@@ -28,6 +28,7 @@ public class BlockLootTableGen extends FabricBlockLootTableProvider{
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_GRANITE_BLOCKS);
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_TUFF_BLOCKS);
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_CALCITE_BLOCKS);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_DRIPSTONE_BLOCK_BLOCKS);
         
     }
 

@@ -16,7 +16,7 @@ This mod just adds Block compression to the game.
 - [x] Cobbled Deepslate
 - [x] Tuff
 - [x] Calcite
-- [ ] Dripstone Block
+- [x] Dripstone Block
 #### Dirty
 - [ ] Dirt
 - [ ] Sand
