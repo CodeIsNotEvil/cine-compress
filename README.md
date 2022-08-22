@@ -20,10 +20,11 @@ This mod just adds Block compression to the game.
 #### Dirty
 - [ ] Dirt
 - [ ] Sand
+- [ ] Red Sand
 - [ ] Clay
 - [ ] Gravil
 - [ ] Terracotta
-- [ ] Moss
+- [ ] Moss Block
 #### Hellish
 - [ ] Netherrack
 - [ ] Soulsand
