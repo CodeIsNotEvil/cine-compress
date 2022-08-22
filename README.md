@@ -39,25 +39,38 @@ This mod just adds Block compression to the game.
 - [ ] Purpur Block
 #### Woods
 - [ ] Oak Log
+- [ ] Stripped Oak Log
 - [ ] Birch Log
-- [ ] Spruch Log
+- [ ] Stripped Birch Log
+- [ ] Spruce Log
+- [ ] Stripped Spruce Log
 - [ ] Jungle Log
+- [ ] Stripped Jungle Log
 - [ ] Acacia Log
+- [ ] Stripped Acacia Log
 - [ ] Dark Oak Log
+- [ ] Stripped Dark Oak Log
 - [ ] Mangroove Log
+- [ ] Stripped Mangroove Log
 - [ ] Crimson Stem
+- [ ] Stripped Crimson Stem
 - [ ] Warped Stem
+- [ ] Stripped Warped Stem
 #### Valuables
 - [ ] Charcoal Block
 - [ ] Coal Block
 - [ ] Copper Block
+- [ ] Raw Copper Block
 - [ ] Iron Block
+- [ ] Raw Iron Block
 - [ ] Gold Block
+- [ ] Raw Gold Block
 - [ ] Redstone Block
 - [ ] Lapis Block
 - [ ] Diamond Block
 - [ ] Emerald Block
 - [ ] Netherite Block
+- [ ] Ancient Debris
 #### ETC
 - [ ] White Wool
 - [ ] Glass
