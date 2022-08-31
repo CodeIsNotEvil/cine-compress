@@ -7,9 +7,11 @@ import com.codeisnotevil.cinecompress.registry.CompressedBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.TexturedModel;
+import net.minecraft.util.Identifier;
 
 public class ModelGen extends FabricModelProvider{
 
@@ -20,7 +22,6 @@ public class ModelGen extends FabricModelProvider{
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         
-        // TODO for every CompressedBlock Type add a model generator like the one below
         // Stones
         // all sides are the same
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_COBBLED_DEEPSLATE_BLOCKS, blockStateModelGenerator);
@@ -35,6 +36,7 @@ public class ModelGen extends FabricModelProvider{
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_DRIPSTONE_BLOCK_BLOCKS, blockStateModelGenerator);
         // pillar like blocks
         generateTopSideCubeAll(CompressedBlocks.COMPRESSED_DEEPSLATE_BLOCKS, blockStateModelGenerator);
+        
 
         // Dirty
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_DIRT_BLOCKS, blockStateModelGenerator);
@@ -45,23 +47,42 @@ public class ModelGen extends FabricModelProvider{
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_TERRACOTTA_BLOCKS, blockStateModelGenerator);
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_MOSS_BLOCK_BLOCKS, blockStateModelGenerator);
 
+        //Hellish
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_NETHERRACK_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_SOUL_SAND_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_NETHER_BRICKS_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_GLOWSTONE_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_MAGMA_BLOCK_BLOCKS, blockStateModelGenerator);
+        generateCubeColum(CompressedBlocks.COMPRESSED_BASALT_BLOCKS, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_BLACKSTONE_BLOCKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_SOUL_SOIL_BLOCKS, blockStateModelGenerator);
+        
     }
 
     /*
      * generates a cube model where evey side has the same (default) texture.
      */
-    private void generateSimpleCubeAll(ArrayList<Block> blocks, BlockStateModelGenerator generator){
+    private void generateSimpleCubeAll(ArrayList<Block> blocks, BlockStateModelGenerator blockStateModelGenerator){
         for (Block block : blocks) {
-            generator.registerSimpleCubeAll(block);
+            blockStateModelGenerator.registerSimpleCubeAll(block);
         }
     }
 
     /*
      * generates a cube model where the top and bottom (_top) have the same texture, the default texture defines the other four sides
      */
-    private void generateTopSideCubeAll(ArrayList<Block> blocks, BlockStateModelGenerator generator){
+    private void generateTopSideCubeAll(ArrayList<Block> blocks, BlockStateModelGenerator blockStateModelGenerator){
         for (Block block : blocks) {
-            generator.registerSingleton(block, TexturedModel.SIDE_END_WALL);
+            blockStateModelGenerator.registerSingleton(block, TexturedModel.SIDE_END_WALL);
+        }
+    }
+
+    /*
+     * generates a cube model where the top and bottom (_top) have the same texture, the sides (_side) texture defines the other four sides
+     */
+    private void generateCubeColum(ArrayList<Block> blocks, BlockStateModelGenerator blockStateModelGenerator){
+        for (Block block : blocks) {
+            blockStateModelGenerator.registerSingleton(block, TexturedModel.CUBE_COLUMN);
         }
     }
 

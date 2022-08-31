@@ -6,7 +6,7 @@
     }
   ],
   "result": {
-    "count": 9,
-    "item": "minecraft:moss_block"
+    "item": "minecraft:moss_block",
+    "count": 9
   }
 }

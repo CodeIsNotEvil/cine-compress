@@ -22,7 +22,6 @@ public class RecipeGen extends FabricRecipeProvider{
     @Override
     protected void generateRecipes(Consumer<RecipeJsonProvider> exporter) {
 
-        // TODO for every CompressedBlock Type add a recipe generator like the one below
         // Stones
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_COBBLED_DEEPSLATE_BLOCKS, Items.COBBLED_DEEPSLATE, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_DEEPSLATE_BLOCKS, Items.DEEPSLATE, exporter);
@@ -44,6 +43,16 @@ public class RecipeGen extends FabricRecipeProvider{
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_GRAVEL_BLOCKS, Items.GRAVEL, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_TERRACOTTA_BLOCKS, Items.TERRACOTTA, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_MOSS_BLOCK_BLOCKS, Items.MOSS_BLOCK, exporter);
+
+        //Hellish
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_NETHERRACK_BLOCKS, Items.NETHERRACK, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_SOUL_SAND_BLOCKS, Items.SOUL_SAND, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_NETHER_BRICKS_BLOCKS, Items.NETHER_BRICKS, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_GLOWSTONE_BLOCKS, Items.GLOWSTONE, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_MAGMA_BLOCK_BLOCKS, Items.MAGMA_BLOCK, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_BASALT_BLOCKS, Items.BASALT, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_BLACKSTONE_BLOCKS, Items.BLACKSTONE, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_SOUL_SOIL_BLOCKS, Items.SOUL_SOIL, exporter);
         
     }
 

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_basaltx1"
+    },
+    {
+      "item": "cinecp:compressed_basaltx1"
+    },
+    {
+      "item": "cinecp:compressed_basaltx1"
+    },
+    {
+      "item": "cinecp:compressed_basaltx1"
+    },
+    {
+      "item": "cinecp:compressed_basaltx1"
+    },
+    {
+      "item": "cinecp:compressed_basaltx1"
+    },
+    {
+      "item": "cinecp:compressed_basaltx1"
+    },
+    {
+      "item": "cinecp:compressed_basaltx1"
+    },
+    {
+      "item": "cinecp:compressed_basaltx1"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_basaltx2"
+  }
+}

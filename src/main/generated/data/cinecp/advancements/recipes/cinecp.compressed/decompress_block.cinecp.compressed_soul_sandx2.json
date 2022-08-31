@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:decompress_block.cinecp.compressed_soul_sandx2"
+    ]
+  },
+  "criteria": {
+    "has_TranslatableComponent{key\u003d\u0027block.minecraft.soul_sand\u0027, args\u003d[], siblings\u003d[], style\u003dStyle{ color\u003dnull, bold\u003dnull, italic\u003dnull, underlined\u003dnull, strikethrough\u003dnull, obfuscated\u003dnull, clickEvent\u003dnull, hoverEvent\u003dnull, insertion\u003dnull, font\u003dminecraft:default}}": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:soul_sand"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:decompress_block.cinecp.compressed_soul_sandx2"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_TranslatableComponent{key\u003d\u0027block.minecraft.soul_sand\u0027, args\u003d[], siblings\u003d[], style\u003dStyle{ color\u003dnull, bold\u003dnull, italic\u003dnull, underlined\u003dnull, strikethrough\u003dnull, obfuscated\u003dnull, clickEvent\u003dnull, hoverEvent\u003dnull, insertion\u003dnull, font\u003dminecraft:default}}",
+      "has_the_recipe"
+    ]
+  ]
+}

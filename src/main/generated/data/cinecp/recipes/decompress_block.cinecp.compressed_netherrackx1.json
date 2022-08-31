@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_netherrackx1"
+    }
+  ],
+  "result": {
+    "item": "minecraft:netherrack",
+    "count": 9
+  }
+}

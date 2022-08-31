@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_glowstonex4"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_glowstonex3",
+    "count": 9
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_soul_sandx5"
+    },
+    {
+      "item": "cinecp:compressed_soul_sandx5"
+    },
+    {
+      "item": "cinecp:compressed_soul_sandx5"
+    },
+    {
+      "item": "cinecp:compressed_soul_sandx5"
+    },
+    {
+      "item": "cinecp:compressed_soul_sandx5"
+    },
+    {
+      "item": "cinecp:compressed_soul_sandx5"
+    },
+    {
+      "item": "cinecp:compressed_soul_sandx5"
+    },
+    {
+      "item": "cinecp:compressed_soul_sandx5"
+    },
+    {
+      "item": "cinecp:compressed_soul_sandx5"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_soul_sandx6"
+  }
+}

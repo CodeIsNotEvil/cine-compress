@@ -25,7 +25,6 @@ public class BlockTagGen extends FabricTagProvider.BlockTagProvider {
         TagKey<Block> stone = BlockTags.NEEDS_STONE_TOOL;
         TagKey<Block> diamond = BlockTags.NEEDS_DIAMOND_TOOL;
 
-        // TODO for every CompressedBlock Type add a tag generator a like the one below
         // Stones
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_COBBLED_DEEPSLATE_BLOCKS);
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_DEEPSLATE_BLOCKS);
@@ -48,6 +47,15 @@ public class BlockTagGen extends FabricTagProvider.BlockTagProvider {
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_TERRACOTTA_BLOCKS);
         generateMineableTags(hoe, stone, CompressedBlocks.COMPRESSED_MOSS_BLOCK_BLOCKS);
 
+        // Hellish
+        generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_NETHERRACK_BLOCKS);
+        generateMineableTags(shovel, stone, CompressedBlocks.COMPRESSED_SOUL_SAND_BLOCKS);
+        generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_NETHER_BRICKS_BLOCKS);
+        generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_GLOWSTONE_BLOCKS);
+        generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_MOSS_BLOCK_BLOCKS);
+        generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_BASALT_BLOCKS);
+        generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_BLACKSTONE_BLOCKS);
+        generateMineableTags(shovel, stone, CompressedBlocks.COMPRESSED_SOUL_SOIL_BLOCKS);
 
     }
 

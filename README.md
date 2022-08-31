@@ -26,14 +26,14 @@ This mod just adds Block compression to the game.
 - [x] Terracotta
 - [x] Moss Block
 #### Hellish
-- [ ] Netherrack
-- [ ] Soulsand
-- [ ] Nether Bricks
-- [ ] Glowstone Block
-- [ ] Magma Block
-- [ ] Basalt
-- [ ] Blackstone
-- [ ] Soulsoil
+- [x] Netherrack
+- [x] Soulsand
+- [x] Nether Bricks
+- [x] Glowstone Block
+- [x] Magma Block
+- [x] Basalt
+- [x] Blackstone
+- [x] Soulsoil
 #### Endish
 - [ ] End stone
 - [ ] Purpur Block

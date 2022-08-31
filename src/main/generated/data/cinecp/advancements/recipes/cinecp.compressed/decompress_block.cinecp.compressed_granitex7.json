@@ -1,13 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:decompress_block.cinecp.compressed_granitex7"
+    ]
+  },
   "criteria": {
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "minecraft:decompress_block.cinecp.compressed_granitex7"
-      },
-      "trigger": "minecraft:recipe_unlocked"
-    },
-    "has_translation{key='block.minecraft.granite', args=[]}": {
+    "has_TranslatableComponent{key\u003d\u0027block.minecraft.granite\u0027, args\u003d[], siblings\u003d[], style\u003dStyle{ color\u003dnull, bold\u003dnull, italic\u003dnull, underlined\u003dnull, strikethrough\u003dnull, obfuscated\u003dnull, clickEvent\u003dnull, hoverEvent\u003dnull, insertion\u003dnull, font\u003dminecraft:default}}": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
@@ -16,19 +16,19 @@
             ]
           }
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:decompress_block.cinecp.compressed_granitex7"
+      }
     }
   },
   "requirements": [
     [
-      "has_translation{key='block.minecraft.granite', args=[]}",
+      "has_TranslatableComponent{key\u003d\u0027block.minecraft.granite\u0027, args\u003d[], siblings\u003d[], style\u003dStyle{ color\u003dnull, bold\u003dnull, italic\u003dnull, underlined\u003dnull, strikethrough\u003dnull, obfuscated\u003dnull, clickEvent\u003dnull, hoverEvent\u003dnull, insertion\u003dnull, font\u003dminecraft:default}}",
       "has_the_recipe"
     ]
-  ],
-  "rewards": {
-    "recipes": [
-      "minecraft:decompress_block.cinecp.compressed_granitex7"
-    ]
-  }
+  ]
 }

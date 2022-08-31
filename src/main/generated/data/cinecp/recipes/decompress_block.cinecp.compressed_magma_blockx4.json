@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_magma_blockx4"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_magma_blockx3",
+    "count": 9
+  }
+}

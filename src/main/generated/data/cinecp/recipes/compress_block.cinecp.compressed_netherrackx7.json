@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_netherrackx6"
+    },
+    {
+      "item": "cinecp:compressed_netherrackx6"
+    },
+    {
+      "item": "cinecp:compressed_netherrackx6"
+    },
+    {
+      "item": "cinecp:compressed_netherrackx6"
+    },
+    {
+      "item": "cinecp:compressed_netherrackx6"
+    },
+    {
+      "item": "cinecp:compressed_netherrackx6"
+    },
+    {
+      "item": "cinecp:compressed_netherrackx6"
+    },
+    {
+      "item": "cinecp:compressed_netherrackx6"
+    },
+    {
+      "item": "cinecp:compressed_netherrackx6"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_netherrackx7"
+  }
+}

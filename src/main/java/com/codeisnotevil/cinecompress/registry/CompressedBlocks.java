@@ -38,10 +38,20 @@ public class CompressedBlocks {
     public static ArrayList<Block> COMPRESSED_TERRACOTTA_BLOCKS = new ArrayList<Block>();
     public static ArrayList<Block> COMPRESSED_MOSS_BLOCK_BLOCKS = new ArrayList<Block>();
 
+    // Hellish
+    public static ArrayList<Block> COMPRESSED_NETHERRACK_BLOCKS = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_SOUL_SAND_BLOCKS = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_NETHER_BRICKS_BLOCKS = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_GLOWSTONE_BLOCKS = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_MAGMA_BLOCK_BLOCKS = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_BASALT_BLOCKS = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_BLACKSTONE_BLOCKS = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_SOUL_SOIL_BLOCKS = new ArrayList<Block>();
+
+
 
     public static void registerBlocks() {
         
-        // TODO add the createCompressedBlocks to register every CompressedBlock
         // Stones
         COMPRESSED_COBBLED_DEEPSLATE_BLOCKS = createCompressedBlocks("compressed_cobbled_deepslate", Settings.copy(Blocks.COBBLED_DEEPSLATE));
         COMPRESSED_DEEPSLATE_BLOCKS = createCompressedBlocks("compressed_deepslate", Settings.copy(Blocks.DEEPSLATE));
@@ -62,6 +72,15 @@ public class CompressedBlocks {
         COMPRESSED_GRAVEL_BLOCKS = createCompressedBlocks("compressed_gravel", Settings.copy(Blocks.GRAVEL));
         COMPRESSED_TERRACOTTA_BLOCKS = createCompressedBlocks("compressed_terracotta", Settings.copy(Blocks.TERRACOTTA));
         COMPRESSED_MOSS_BLOCK_BLOCKS = createCompressedBlocks("compressed_moss_block", Settings.copy(Blocks.MOSS_BLOCK));
+        // Hellish
+        COMPRESSED_NETHERRACK_BLOCKS = createCompressedBlocks("compressed_netherrack", Settings.copy(Blocks.NETHERRACK));
+        COMPRESSED_SOUL_SAND_BLOCKS = createCompressedBlocks("compressed_soul_sand", Settings.copy(Blocks.SOUL_SAND));
+        COMPRESSED_NETHER_BRICKS_BLOCKS = createCompressedBlocks("compressed_nether_bricks", Settings.copy(Blocks.NETHER_BRICKS));
+        COMPRESSED_GLOWSTONE_BLOCKS = createCompressedBlocks("compressed_glowstone", Settings.copy(Blocks.GLOWSTONE));
+        COMPRESSED_MAGMA_BLOCK_BLOCKS = createCompressedBlocks("compressed_magma_block", Settings.copy(Blocks.MAGMA_BLOCK));
+        COMPRESSED_BASALT_BLOCKS = createCompressedBlocks("compressed_basalt", Settings.copy(Blocks.BASALT));
+        COMPRESSED_BLACKSTONE_BLOCKS = createCompressedBlocks("compressed_blackstone", Settings.copy(Blocks.BLACKSTONE));
+        COMPRESSED_SOUL_SOIL_BLOCKS = createCompressedBlocks("compressed_soul_soil", Settings.copy(Blocks.SOUL_SOIL));
 
     }
 

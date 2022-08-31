@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_soul_soilx8"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_soul_soilx7",
+    "count": 9
+  }
+}
