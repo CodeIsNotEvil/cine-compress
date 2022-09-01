@@ -52,7 +52,7 @@ public class BlockTagGen extends FabricTagProvider.BlockTagProvider {
         generateMineableTags(shovel, stone, CompressedBlocks.COMPRESSED_SOUL_SAND_BLOCKS);
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_NETHER_BRICKS_BLOCKS);
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_GLOWSTONE_BLOCKS);
-        generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_MOSS_BLOCK_BLOCKS);
+        generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_MAGMA_BLOCK_BLOCKS);
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_BASALT_BLOCKS);
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_BLACKSTONE_BLOCKS);
         generateMineableTags(shovel, stone, CompressedBlocks.COMPRESSED_SOUL_SOIL_BLOCKS);
