@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_end_stone_bricksx7"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_end_stone_bricksx6",
+    "count": 9
+  }
+}

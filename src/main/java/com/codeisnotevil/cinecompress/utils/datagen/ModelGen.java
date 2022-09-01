@@ -7,11 +7,9 @@ import com.codeisnotevil.cinecompress.registry.CompressedBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.TexturedModel;
-import net.minecraft.util.Identifier;
 
 public class ModelGen extends FabricModelProvider{
 
@@ -47,7 +45,7 @@ public class ModelGen extends FabricModelProvider{
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_TERRACOTTA_BLOCKS, blockStateModelGenerator);
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_MOSS_BLOCK_BLOCKS, blockStateModelGenerator);
 
-        //Hellish
+        // Hellish
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_NETHERRACK_BLOCKS, blockStateModelGenerator);
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_SOUL_SAND_BLOCKS, blockStateModelGenerator);
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_NETHER_BRICKS_BLOCKS, blockStateModelGenerator);
@@ -56,7 +54,12 @@ public class ModelGen extends FabricModelProvider{
         generateCubeColum(CompressedBlocks.COMPRESSED_BASALT_BLOCKS, blockStateModelGenerator);
         generateTopSideCubeAll(CompressedBlocks.COMPRESSED_BLACKSTONE_BLOCKS, blockStateModelGenerator);
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_SOUL_SOIL_BLOCKS, blockStateModelGenerator);
-        
+
+        // Endish
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_END_STONE, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_END_STONE_BRICKS, blockStateModelGenerator);
+        generateSimpleCubeAll(CompressedBlocks.COMPRESSED_PURPUR_BLOCK, blockStateModelGenerator);
+
     }
 
     /*

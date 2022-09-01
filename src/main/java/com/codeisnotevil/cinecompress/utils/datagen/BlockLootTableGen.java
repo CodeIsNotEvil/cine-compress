@@ -39,7 +39,7 @@ public class BlockLootTableGen extends FabricBlockLootTableProvider{
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_TERRACOTTA_BLOCKS);
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_MOSS_BLOCK_BLOCKS);
 
-        //Hellish
+        // Hellish
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_NETHERRACK_BLOCKS);
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_SOUL_SAND_BLOCKS);
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_NETHER_BRICKS_BLOCKS);
@@ -48,6 +48,11 @@ public class BlockLootTableGen extends FabricBlockLootTableProvider{
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_BASALT_BLOCKS);
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_BLACKSTONE_BLOCKS);
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_SOUL_SOIL_BLOCKS);
+
+        // Endish
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_END_STONE);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_END_STONE_BRICKS);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_PURPUR_BLOCK);
         
     }
 

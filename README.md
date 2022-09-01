@@ -35,8 +35,9 @@ This mod just adds Block compression to the game.
 - [x] Blackstone
 - [x] Soulsoil
 #### Endish
-- [ ] End stone
-- [ ] Purpur Block
+- [x] End Stone
+- [x] End Stone Bricks
+- [x] Purpur Block
 #### Woods
 - [ ] Oak Log
 - [ ] Stripped Oak Log

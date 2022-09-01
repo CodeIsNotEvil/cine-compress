@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_end_stonex4"
+    },
+    {
+      "item": "cinecp:compressed_end_stonex4"
+    },
+    {
+      "item": "cinecp:compressed_end_stonex4"
+    },
+    {
+      "item": "cinecp:compressed_end_stonex4"
+    },
+    {
+      "item": "cinecp:compressed_end_stonex4"
+    },
+    {
+      "item": "cinecp:compressed_end_stonex4"
+    },
+    {
+      "item": "cinecp:compressed_end_stonex4"
+    },
+    {
+      "item": "cinecp:compressed_end_stonex4"
+    },
+    {
+      "item": "cinecp:compressed_end_stonex4"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_end_stonex5"
+  }
+}

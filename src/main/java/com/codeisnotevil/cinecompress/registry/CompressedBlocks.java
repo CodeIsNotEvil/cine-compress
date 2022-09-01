@@ -48,6 +48,11 @@ public class CompressedBlocks {
     public static ArrayList<Block> COMPRESSED_BLACKSTONE_BLOCKS = new ArrayList<Block>();
     public static ArrayList<Block> COMPRESSED_SOUL_SOIL_BLOCKS = new ArrayList<Block>();
 
+    // Endish
+    public static ArrayList<Block> COMPRESSED_END_STONE = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_END_STONE_BRICKS = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_PURPUR_BLOCK = new ArrayList<Block>();
+
 
 
     public static void registerBlocks() {
@@ -64,6 +69,7 @@ public class CompressedBlocks {
         COMPRESSED_TUFF_BLOCKS = createCompressedBlocks("compressed_tuff", Settings.copy(Blocks.TUFF));
         COMPRESSED_CALCITE_BLOCKS = createCompressedBlocks("compressed_calcite", Settings.copy(Blocks.CALCITE));
         COMPRESSED_DRIPSTONE_BLOCK_BLOCKS = createCompressedBlocks("compressed_dripstone_block", Settings.copy(Blocks.DRIPSTONE_BLOCK));
+        
         // Dirty
         COMPRESSED_DIRT_BLOCKS = createCompressedBlocks("compressed_dirt", Settings.copy(Blocks.DIRT));
         COMPRESSED_SAND_BLOCKS = createCompressedBlocks("compressed_sand", Settings.copy(Blocks.SAND));
@@ -72,6 +78,7 @@ public class CompressedBlocks {
         COMPRESSED_GRAVEL_BLOCKS = createCompressedBlocks("compressed_gravel", Settings.copy(Blocks.GRAVEL));
         COMPRESSED_TERRACOTTA_BLOCKS = createCompressedBlocks("compressed_terracotta", Settings.copy(Blocks.TERRACOTTA));
         COMPRESSED_MOSS_BLOCK_BLOCKS = createCompressedBlocks("compressed_moss_block", Settings.copy(Blocks.MOSS_BLOCK));
+
         // Hellish
         COMPRESSED_NETHERRACK_BLOCKS = createCompressedBlocks("compressed_netherrack", Settings.copy(Blocks.NETHERRACK));
         COMPRESSED_SOUL_SAND_BLOCKS = createCompressedBlocks("compressed_soul_sand", Settings.copy(Blocks.SOUL_SAND));
@@ -81,6 +88,11 @@ public class CompressedBlocks {
         COMPRESSED_BASALT_BLOCKS = createCompressedBlocks("compressed_basalt", Settings.copy(Blocks.BASALT));
         COMPRESSED_BLACKSTONE_BLOCKS = createCompressedBlocks("compressed_blackstone", Settings.copy(Blocks.BLACKSTONE));
         COMPRESSED_SOUL_SOIL_BLOCKS = createCompressedBlocks("compressed_soul_soil", Settings.copy(Blocks.SOUL_SOIL));
+
+        // Endish
+        COMPRESSED_END_STONE = createCompressedBlocks("compressed_end_stone", Settings.copy(Blocks.END_STONE));
+        COMPRESSED_END_STONE_BRICKS = createCompressedBlocks("compressed_end_stone_bricks", Settings.copy(Blocks.END_STONE_BRICKS));
+        COMPRESSED_PURPUR_BLOCK = createCompressedBlocks("compressed_purpur_block", Settings.copy(Blocks.PURPUR_BLOCK));
 
     }
 

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_purpur_blockx1"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purpur_block",
+    "count": 9
+  }
+}

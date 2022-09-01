@@ -44,7 +44,7 @@ public class RecipeGen extends FabricRecipeProvider{
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_TERRACOTTA_BLOCKS, Items.TERRACOTTA, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_MOSS_BLOCK_BLOCKS, Items.MOSS_BLOCK, exporter);
 
-        //Hellish
+        // Hellish
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_NETHERRACK_BLOCKS, Items.NETHERRACK, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_SOUL_SAND_BLOCKS, Items.SOUL_SAND, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_NETHER_BRICKS_BLOCKS, Items.NETHER_BRICKS, exporter);
@@ -53,6 +53,11 @@ public class RecipeGen extends FabricRecipeProvider{
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_BASALT_BLOCKS, Items.BASALT, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_BLACKSTONE_BLOCKS, Items.BLACKSTONE, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_SOUL_SOIL_BLOCKS, Items.SOUL_SOIL, exporter);
+
+        // Endish
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_END_STONE, Items.END_STONE, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_END_STONE_BRICKS, Items.END_STONE_BRICKS, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_PURPUR_BLOCK, Items.PURPUR_BLOCK, exporter);
         
     }
 

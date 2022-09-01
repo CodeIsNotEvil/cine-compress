@@ -57,6 +57,11 @@ public class BlockTagGen extends FabricTagProvider.BlockTagProvider {
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_BLACKSTONE_BLOCKS);
         generateMineableTags(shovel, stone, CompressedBlocks.COMPRESSED_SOUL_SOIL_BLOCKS);
 
+        // Endish
+        generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_END_STONE);
+        generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_END_STONE_BRICKS);
+        generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_PURPUR_BLOCK);
+
     }
 
     private void generateMineableTags(TagKey<Block> mineableBy, TagKey<Block> neededToolLevel,ArrayList<Block> blocks) {
