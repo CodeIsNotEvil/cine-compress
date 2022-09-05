@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_stripped_jungle_logx1"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stripped_jungle_log",
+    "count": 9
+  }
+}

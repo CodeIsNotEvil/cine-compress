@@ -53,6 +53,24 @@ public class BlockLootTableGen extends FabricBlockLootTableProvider{
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_END_STONE);
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_END_STONE_BRICKS);
         generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_PURPUR_BLOCK);
+
+        // Woods
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_OAK_LOG);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_STRIPPED_OAK_LOG);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_BIRCH_LOG);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_STRIPPED_BIRCH_LOG);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_SPRUCE_LOG);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_STRIPPED_SPRUCE_LOG);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_JUNGLE_LOG);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_STRIPPED_JUNGLE_LOG);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_ACACIA_LOG);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_STRIPPED_ACACIA_LOG);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_DARK_OAK_LOG);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_STRIPPED_DARK_OAK_LOG);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_CRIMSON_STEM);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_STRIPPED_CRIMSON_STEM);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_WARPED_STEM);
+        generateSelfDropLootTableForAll(CompressedBlocks.COMPRESSED_STRIPPED_WARPED_STEM);
         
     }
 

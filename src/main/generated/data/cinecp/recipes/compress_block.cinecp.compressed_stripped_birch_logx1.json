@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_birch_log"
+    },
+    {
+      "item": "minecraft:stripped_birch_log"
+    },
+    {
+      "item": "minecraft:stripped_birch_log"
+    },
+    {
+      "item": "minecraft:stripped_birch_log"
+    },
+    {
+      "item": "minecraft:stripped_birch_log"
+    },
+    {
+      "item": "minecraft:stripped_birch_log"
+    },
+    {
+      "item": "minecraft:stripped_birch_log"
+    },
+    {
+      "item": "minecraft:stripped_birch_log"
+    },
+    {
+      "item": "minecraft:stripped_birch_log"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_stripped_birch_logx1"
+  }
+}

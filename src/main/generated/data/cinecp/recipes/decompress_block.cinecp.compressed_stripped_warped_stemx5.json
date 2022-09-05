@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_stripped_warped_stemx5"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_stripped_warped_stemx4",
+    "count": 9
+  }
+}

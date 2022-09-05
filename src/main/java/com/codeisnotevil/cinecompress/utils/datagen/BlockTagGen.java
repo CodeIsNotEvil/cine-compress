@@ -21,6 +21,7 @@ public class BlockTagGen extends FabricTagProvider.BlockTagProvider {
         TagKey<Block> pickaxe = BlockTags.PICKAXE_MINEABLE;
         TagKey<Block> shovel = BlockTags.SHOVEL_MINEABLE;
         TagKey<Block> hoe = BlockTags.HOE_MINEABLE;
+        TagKey<Block> axe = BlockTags.AXE_MINEABLE;
 
         TagKey<Block> stone = BlockTags.NEEDS_STONE_TOOL;
         TagKey<Block> diamond = BlockTags.NEEDS_DIAMOND_TOOL;
@@ -61,6 +62,25 @@ public class BlockTagGen extends FabricTagProvider.BlockTagProvider {
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_END_STONE);
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_END_STONE_BRICKS);
         generateMineableTags(pickaxe, stone, CompressedBlocks.COMPRESSED_PURPUR_BLOCK);
+
+        // Woods
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_OAK_LOG);
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_STRIPPED_OAK_LOG);
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_BIRCH_LOG);
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_STRIPPED_BIRCH_LOG);
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_SPRUCE_LOG);
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_STRIPPED_SPRUCE_LOG);
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_JUNGLE_LOG);
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_STRIPPED_JUNGLE_LOG);
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_ACACIA_LOG);
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_STRIPPED_ACACIA_LOG);
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_DARK_OAK_LOG);
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_STRIPPED_DARK_OAK_LOG);
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_CRIMSON_STEM);
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_STRIPPED_CRIMSON_STEM);
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_WARPED_STEM);
+        generateMineableTags(axe, stone, CompressedBlocks.COMPRESSED_STRIPPED_WARPED_STEM);
+
 
     }
 

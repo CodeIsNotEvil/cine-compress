@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_warped_stemx1"
+    },
+    {
+      "item": "cinecp:compressed_warped_stemx1"
+    },
+    {
+      "item": "cinecp:compressed_warped_stemx1"
+    },
+    {
+      "item": "cinecp:compressed_warped_stemx1"
+    },
+    {
+      "item": "cinecp:compressed_warped_stemx1"
+    },
+    {
+      "item": "cinecp:compressed_warped_stemx1"
+    },
+    {
+      "item": "cinecp:compressed_warped_stemx1"
+    },
+    {
+      "item": "cinecp:compressed_warped_stemx1"
+    },
+    {
+      "item": "cinecp:compressed_warped_stemx1"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_warped_stemx2"
+  }
+}

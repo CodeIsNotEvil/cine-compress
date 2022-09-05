@@ -60,6 +60,24 @@ public class ModelGen extends FabricModelProvider{
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_END_STONE_BRICKS, blockStateModelGenerator);
         generateSimpleCubeAll(CompressedBlocks.COMPRESSED_PURPUR_BLOCK, blockStateModelGenerator);
 
+        // Woods
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_OAK_LOG, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_STRIPPED_OAK_LOG, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_BIRCH_LOG, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_STRIPPED_BIRCH_LOG, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_SPRUCE_LOG, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_STRIPPED_SPRUCE_LOG, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_JUNGLE_LOG, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_STRIPPED_JUNGLE_LOG, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_ACACIA_LOG, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_STRIPPED_ACACIA_LOG, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_DARK_OAK_LOG, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_STRIPPED_DARK_OAK_LOG, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_CRIMSON_STEM, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_STRIPPED_CRIMSON_STEM, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_WARPED_STEM, blockStateModelGenerator);
+        generateTopSideCubeAll(CompressedBlocks.COMPRESSED_STRIPPED_WARPED_STEM, blockStateModelGenerator);
+
     }
 
     /*

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_stripped_spruce_logx1"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stripped_spruce_log",
+    "count": 9
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:warped_stem"
+    },
+    {
+      "item": "minecraft:warped_stem"
+    },
+    {
+      "item": "minecraft:warped_stem"
+    },
+    {
+      "item": "minecraft:warped_stem"
+    },
+    {
+      "item": "minecraft:warped_stem"
+    },
+    {
+      "item": "minecraft:warped_stem"
+    },
+    {
+      "item": "minecraft:warped_stem"
+    },
+    {
+      "item": "minecraft:warped_stem"
+    },
+    {
+      "item": "minecraft:warped_stem"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_warped_stemx1"
+  }
+}

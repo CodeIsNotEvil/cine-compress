@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_stripped_spruce_logx7"
+    },
+    {
+      "item": "cinecp:compressed_stripped_spruce_logx7"
+    },
+    {
+      "item": "cinecp:compressed_stripped_spruce_logx7"
+    },
+    {
+      "item": "cinecp:compressed_stripped_spruce_logx7"
+    },
+    {
+      "item": "cinecp:compressed_stripped_spruce_logx7"
+    },
+    {
+      "item": "cinecp:compressed_stripped_spruce_logx7"
+    },
+    {
+      "item": "cinecp:compressed_stripped_spruce_logx7"
+    },
+    {
+      "item": "cinecp:compressed_stripped_spruce_logx7"
+    },
+    {
+      "item": "cinecp:compressed_stripped_spruce_logx7"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_stripped_spruce_logx8"
+  }
+}

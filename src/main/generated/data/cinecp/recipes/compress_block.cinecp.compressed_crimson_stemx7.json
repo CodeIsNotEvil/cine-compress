@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_crimson_stemx6"
+    },
+    {
+      "item": "cinecp:compressed_crimson_stemx6"
+    },
+    {
+      "item": "cinecp:compressed_crimson_stemx6"
+    },
+    {
+      "item": "cinecp:compressed_crimson_stemx6"
+    },
+    {
+      "item": "cinecp:compressed_crimson_stemx6"
+    },
+    {
+      "item": "cinecp:compressed_crimson_stemx6"
+    },
+    {
+      "item": "cinecp:compressed_crimson_stemx6"
+    },
+    {
+      "item": "cinecp:compressed_crimson_stemx6"
+    },
+    {
+      "item": "cinecp:compressed_crimson_stemx6"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_crimson_stemx7"
+  }
+}

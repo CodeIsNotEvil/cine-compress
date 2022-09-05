@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_crimson_stem"
+    },
+    {
+      "item": "minecraft:stripped_crimson_stem"
+    },
+    {
+      "item": "minecraft:stripped_crimson_stem"
+    },
+    {
+      "item": "minecraft:stripped_crimson_stem"
+    },
+    {
+      "item": "minecraft:stripped_crimson_stem"
+    },
+    {
+      "item": "minecraft:stripped_crimson_stem"
+    },
+    {
+      "item": "minecraft:stripped_crimson_stem"
+    },
+    {
+      "item": "minecraft:stripped_crimson_stem"
+    },
+    {
+      "item": "minecraft:stripped_crimson_stem"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_stripped_crimson_stemx1"
+  }
+}

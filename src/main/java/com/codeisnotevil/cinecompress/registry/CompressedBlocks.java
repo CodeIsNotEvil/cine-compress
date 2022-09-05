@@ -53,6 +53,24 @@ public class CompressedBlocks {
     public static ArrayList<Block> COMPRESSED_END_STONE_BRICKS = new ArrayList<Block>();
     public static ArrayList<Block> COMPRESSED_PURPUR_BLOCK = new ArrayList<Block>();
 
+    // Woods
+    public static ArrayList<Block> COMPRESSED_OAK_LOG = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_STRIPPED_OAK_LOG = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_BIRCH_LOG = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_STRIPPED_BIRCH_LOG = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_SPRUCE_LOG = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_STRIPPED_SPRUCE_LOG = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_JUNGLE_LOG = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_STRIPPED_JUNGLE_LOG = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_ACACIA_LOG = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_STRIPPED_ACACIA_LOG = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_DARK_OAK_LOG = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_STRIPPED_DARK_OAK_LOG = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_CRIMSON_STEM = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_STRIPPED_CRIMSON_STEM = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_WARPED_STEM = new ArrayList<Block>();
+    public static ArrayList<Block> COMPRESSED_STRIPPED_WARPED_STEM = new ArrayList<Block>();
+
 
 
     public static void registerBlocks() {
@@ -93,6 +111,25 @@ public class CompressedBlocks {
         COMPRESSED_END_STONE = createCompressedBlocks("compressed_end_stone", Settings.copy(Blocks.END_STONE));
         COMPRESSED_END_STONE_BRICKS = createCompressedBlocks("compressed_end_stone_bricks", Settings.copy(Blocks.END_STONE_BRICKS));
         COMPRESSED_PURPUR_BLOCK = createCompressedBlocks("compressed_purpur_block", Settings.copy(Blocks.PURPUR_BLOCK));
+
+        // Woods
+        // Fabric or minecraft issue with the log settings... useing planksettings instead.
+        COMPRESSED_OAK_LOG = createCompressedBlocks("compressed_oak_log", Settings.copy(Blocks.OAK_PLANKS));
+        COMPRESSED_STRIPPED_OAK_LOG = createCompressedBlocks("compressed_stripped_oak_log", Settings.copy(Blocks.OAK_PLANKS));
+        COMPRESSED_BIRCH_LOG = createCompressedBlocks("compressed_birch_log", Settings.copy(Blocks.BIRCH_PLANKS));
+        COMPRESSED_STRIPPED_BIRCH_LOG = createCompressedBlocks("compressed_stripped_birch_log", Settings.copy(Blocks.BIRCH_PLANKS));
+        COMPRESSED_SPRUCE_LOG = createCompressedBlocks("compressed_spruce_log", Settings.copy(Blocks.SPRUCE_PLANKS));
+        COMPRESSED_STRIPPED_SPRUCE_LOG = createCompressedBlocks("compressed_stripped_spruce_log", Settings.copy(Blocks.SPRUCE_PLANKS));
+        COMPRESSED_JUNGLE_LOG = createCompressedBlocks("compressed_jungle_log", Settings.copy(Blocks.JUNGLE_PLANKS));
+        COMPRESSED_STRIPPED_JUNGLE_LOG = createCompressedBlocks("compressed_stripped_jungle_log", Settings.copy(Blocks.JUNGLE_PLANKS));
+        COMPRESSED_ACACIA_LOG = createCompressedBlocks("compressed_acacia_log", Settings.copy(Blocks.ACACIA_PLANKS));
+        COMPRESSED_STRIPPED_ACACIA_LOG = createCompressedBlocks("compressed_stripped_acacia_log", Settings.copy(Blocks.ACACIA_PLANKS));
+        COMPRESSED_DARK_OAK_LOG = createCompressedBlocks("compressed_dark_oak_log", Settings.copy(Blocks.DARK_OAK_PLANKS));
+        COMPRESSED_STRIPPED_DARK_OAK_LOG = createCompressedBlocks("compressed_stripped_dark_oak_log", Settings.copy(Blocks.DARK_OAK_PLANKS));
+        COMPRESSED_CRIMSON_STEM = createCompressedBlocks("compressed_crimson_stem", Settings.copy(Blocks.CRIMSON_STEM));
+        COMPRESSED_STRIPPED_CRIMSON_STEM = createCompressedBlocks("compressed_stripped_crimson_stem", Settings.copy(Blocks.STRIPPED_CRIMSON_STEM));
+        COMPRESSED_WARPED_STEM = createCompressedBlocks("compressed_warped_stem", Settings.copy(Blocks.WARPED_STEM));
+        COMPRESSED_STRIPPED_WARPED_STEM = createCompressedBlocks("compressed_stripped_warped_stem", Settings.copy(Blocks.STRIPPED_WARPED_STEM));
 
     }
 

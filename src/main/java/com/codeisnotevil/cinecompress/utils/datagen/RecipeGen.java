@@ -58,6 +58,24 @@ public class RecipeGen extends FabricRecipeProvider{
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_END_STONE, Items.END_STONE, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_END_STONE_BRICKS, Items.END_STONE_BRICKS, exporter);
         generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_PURPUR_BLOCK, Items.PURPUR_BLOCK, exporter);
+
+        // Woods
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_OAK_LOG, Items.OAK_LOG, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_STRIPPED_OAK_LOG, Items.STRIPPED_OAK_LOG, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_BIRCH_LOG, Items.BIRCH_LOG, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_STRIPPED_BIRCH_LOG, Items.STRIPPED_BIRCH_LOG, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_SPRUCE_LOG, Items.SPRUCE_LOG, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_STRIPPED_SPRUCE_LOG, Items.STRIPPED_SPRUCE_LOG, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_JUNGLE_LOG, Items.JUNGLE_LOG, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_STRIPPED_JUNGLE_LOG, Items.STRIPPED_JUNGLE_LOG, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_ACACIA_LOG, Items.ACACIA_LOG, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_STRIPPED_ACACIA_LOG, Items.STRIPPED_ACACIA_LOG, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_DARK_OAK_LOG, Items.DARK_OAK_LOG, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_STRIPPED_DARK_OAK_LOG, Items.STRIPPED_DARK_OAK_LOG, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_CRIMSON_STEM, Items.CRIMSON_STEM, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_STRIPPED_CRIMSON_STEM, Items.STRIPPED_CRIMSON_STEM, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_WARPED_STEM, Items.WARPED_STEM, exporter);
+        generateAllRecipeForBlocks(CompressedBlocks.COMPRESSED_STRIPPED_WARPED_STEM, Items.STRIPPED_WARPED_STEM, exporter);
         
     }
 

@@ -39,24 +39,24 @@ This mod just adds Block compression to the game.
 - [x] End Stone Bricks
 - [x] Purpur Block
 #### Woods
-- [ ] Oak Log
-- [ ] Stripped Oak Log
-- [ ] Birch Log
-- [ ] Stripped Birch Log
-- [ ] Spruce Log
-- [ ] Stripped Spruce Log
-- [ ] Jungle Log
-- [ ] Stripped Jungle Log
-- [ ] Acacia Log
-- [ ] Stripped Acacia Log
-- [ ] Dark Oak Log
-- [ ] Stripped Dark Oak Log
-- [ ] Mangroove Log
-- [ ] Stripped Mangroove Log
-- [ ] Crimson Stem
-- [ ] Stripped Crimson Stem
-- [ ] Warped Stem
-- [ ] Stripped Warped Stem
+- [x] Oak Log
+- [x] Stripped Oak Log
+- [x] Birch Log
+- [x] Stripped Birch Log
+- [x] Spruce Log
+- [x] Stripped Spruce Log
+- [x] Jungle Log
+- [x] Stripped Jungle Log
+- [x] Acacia Log
+- [x] Stripped Acacia Log
+- [x] Dark Oak Log
+- [x] Stripped Dark Oak Log
+- [x] Crimson Stem
+- [x] Stripped Crimson Stem
+- [x] Warped Stem
+- [x] Stripped Warped Stem
+- [ ] Mangroove Log (1.19+)
+- [ ] Stripped Mangroove Log (1.19+)
 #### Valuables
 - [ ] Charcoal Block
 - [ ] Coal Block

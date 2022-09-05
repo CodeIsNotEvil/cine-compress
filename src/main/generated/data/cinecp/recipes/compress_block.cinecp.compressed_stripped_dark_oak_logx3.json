@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cinecp:compressed_stripped_dark_oak_logx2"
+    },
+    {
+      "item": "cinecp:compressed_stripped_dark_oak_logx2"
+    },
+    {
+      "item": "cinecp:compressed_stripped_dark_oak_logx2"
+    },
+    {
+      "item": "cinecp:compressed_stripped_dark_oak_logx2"
+    },
+    {
+      "item": "cinecp:compressed_stripped_dark_oak_logx2"
+    },
+    {
+      "item": "cinecp:compressed_stripped_dark_oak_logx2"
+    },
+    {
+      "item": "cinecp:compressed_stripped_dark_oak_logx2"
+    },
+    {
+      "item": "cinecp:compressed_stripped_dark_oak_logx2"
+    },
+    {
+      "item": "cinecp:compressed_stripped_dark_oak_logx2"
+    }
+  ],
+  "result": {
+    "item": "cinecp:compressed_stripped_dark_oak_logx3"
+  }
+}
