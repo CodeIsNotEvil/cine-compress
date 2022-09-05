@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "cinecp:block/compressed_stripped_crimson_stemx7_top",
-    "side": "cinecp:block/compressed_stripped_crimson_stemx7"
-  }
-}

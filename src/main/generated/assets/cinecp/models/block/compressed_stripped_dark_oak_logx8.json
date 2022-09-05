@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "cinecp:block/compressed_stripped_dark_oak_logx8_top",
-    "side": "cinecp:block/compressed_stripped_dark_oak_logx8"
-  }
-}

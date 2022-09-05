@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "cinecp:block/compressed_soul_sandx1"
-  }
-}

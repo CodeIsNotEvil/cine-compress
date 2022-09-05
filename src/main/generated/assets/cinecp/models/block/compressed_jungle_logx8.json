@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "cinecp:block/compressed_jungle_logx8_top",
-    "side": "cinecp:block/compressed_jungle_logx8"
-  }
-}
