@@ -58,7 +58,6 @@ This mod just adds Block compression to the game.
 - [ ] Mangroove Log (1.19+)
 - [ ] Stripped Mangroove Log (1.19+)
 #### Valuables
-- [ ] Charcoal Block
 - [ ] Coal Block
 - [ ] Copper Block
 - [ ] Raw Copper Block

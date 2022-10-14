@@ -15,6 +15,8 @@ import net.minecraft.util.registry.Registry;
 
 public class CompressedBlocks {
     private static final ItemGroup COMPRESS_ITEM_GROUP = CineCompress.COMPRESS_GROUP;
+    // Make sure every compressed block matches this patttern "COMPRESSED_[A-Z_]*".
+    // The BlockLootTableGen will look after it and generate selfdrop.
 
     // Stones
     public static ArrayList<Block> COMPRESSED_COBBLED_DEEPSLATE_BLOCKS = new ArrayList<Block>();
